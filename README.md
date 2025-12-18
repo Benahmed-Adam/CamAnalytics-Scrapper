@@ -15,11 +15,9 @@ Ce scrapper utilise Selenium pour charger la page et BeautifulSoup pour parser e
 ## Fonctionnalités non implémentées
 
 **Envoi automatique de messages aux vendeurs** :  
-Cette fonctionnalité n'a pas été implémentée pour les raisons suivantes :
+Cette fonctionnalité a bien été implémentée :
 
-- Abscence d'api publique permettant d'envoyer des messages
-- Le site impose une connexion obligatoire à un compte utilisateur pour envoyer un message.
-- Cela entrainerai donc le non respect des conditions d'utilisation du site et non respect de la loi.
+Pour ce fairee vous devez copier vos cookies Leboncoin dans le .env dans la variable COOKIES = LES_COOKIES afin que ca marche
 
 ## Prérequis
 

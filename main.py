@@ -1,7 +1,7 @@
 from scrapper import *
 
 def main() -> None:
-    scrapper: LeBonCoinScrapper = LeBonCoinScrapper(recherche="une cible de fléchettes avec les fléchettes")
+    scrapper: LeBonCoinScrapper = LeBonCoinScrapper(recherche="feutres")
     result: List[ArticleDict] = scrapper.scrape()
 
     if result:
@@ -14,6 +14,12 @@ def main() -> None:
             print("-" * 20)
     else:
         print("Pas d'articles récupéré, captcha ?")
+    
+    print("Envoi de messages...")
+    
+    scrapper.send_message(result)
+
+    scrapper.close()
 
 if __name__ == "__main__":
     main()
