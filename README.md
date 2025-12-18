@@ -17,7 +17,7 @@ Ce scrapper utilise Selenium pour charger la page et BeautifulSoup pour parser e
 **Envoi automatique de messages aux vendeurs** :  
 Cette fonctionnalité a bien été implémentée :
 
-Pour ce fairee vous devez copier vos cookies Leboncoin dans le .env dans la variable COOKIES = LES_COOKIES afin que ca marche
+Pour ce faire vous devez copier vos cookies Leboncoin dans le .env dans la variable COOKIES = LES_COOKIES afin que ca marche
 
 ## Prérequis
 
@@ -37,6 +37,7 @@ pip install -r requirements.txt
 Modifier ou créer le fichier `.env` à la racine du projet avec :
 ```
 NAVIGATOR=FIREFOX  # ou CHROME
+COOKIES = LES_COOKIES_QUE_VOUS_AVEZE_COPIé_DE_LEBONCOIN
 ```
 
 ## Utilisation
